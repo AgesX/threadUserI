@@ -33,3 +33,29 @@ view 与 layer 的关系，
 
 <hr>
 
+
+UIView 消费者，负责绘制
+
+
+CALayer 生产者，负责内容
+
+
+
+<hr>
+
+从 drawRect 方法中分开，
+
+从 UIView 的渲染流程中分开
+
+
+
+
+<hr>
+
+
+<hr>
+
+
+异步渲染，
+
+子线程，异步操作， CALayer
