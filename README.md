@@ -125,6 +125,22 @@ Texture
 
 <hr>
 
+渲染方面: 
+
+
+放弃单线程 ( 主线程 ) 线程安全的 UIView, 
+
+
+选择多线程，高效率的 CALayer
+
+
+<hr>
+
+
+<hr>
+
+<hr>
+
 
 <hr>
 
@@ -138,6 +154,10 @@ Graver
 
 <hr>
 
+<hr>
+
+
+<hr>
 
 Graver
 
@@ -148,3 +168,22 @@ Graver
 赋值到 CALayer 的 contents
 
 
+<hr>
+
+
+<hr>
+
+<hr>
+
+
+<hr>
+
+
+
+
+
+drawLayer:   默认调用 drawRect:
+
+
+
+drawLayer:  实现了，  drawRect: 就不会跑了
